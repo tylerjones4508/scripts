@@ -4,5 +4,4 @@
 #Command: ssh user@hostname 'bash -s' < /path/to/master-install.sh
 
 
-curl -L https://bootstrap.saltstack.com -o sudo sh install_salt.sh -P -M
-
+curl -L https://bootstrap.saltstack.com -o install_salt.sh && sh install_salt.sh -P -M
